@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pokelytics"
+version = "0.1.0"
+description = "Analyze the pokemon dataset and the competitive pokemon dataset on Kaggle to infer which traits make a pokemon viable for competitive"
+authors = ["Huy-DNA <huydo862003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
